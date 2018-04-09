@@ -36,7 +36,7 @@ gem 'bulma-rails', '~> 0.6.2'
 gem 'simple_form', '~> 3.5', '>= 3.5.1'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'devise', '~> 4.4', '>= 4.4.3'
-
+gem 'gravatar', '~> 1.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
