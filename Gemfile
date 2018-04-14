@@ -59,7 +59,19 @@ group :development do
   gem 'better_errors', '~> 2.4'
   gem 'guard', '~> 2.14', '>= 2.14.2'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+   #Added for testing
+  gem 'guard-minitest'
+  gem 'guard-spring'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#Added for tessting
+group :test do
+  gem 'capybara_minitest_spec'
+  gem 'shoulda', '~>3.5'
+  gem 'shoulda-matchers', '~> 2.0'
+  gem 'factory_bot_rails'
+  gem 'mocha'
+end
